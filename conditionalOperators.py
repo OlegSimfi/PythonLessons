@@ -12,6 +12,5 @@ else:
     print("Вы ввели 0")
 
 name = input("Введите имя")
-a="Yes" if name != "Test" else "No"
+a = "Yes" if name != "Test" else "No"
 print(a)
-

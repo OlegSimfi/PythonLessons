@@ -5,9 +5,9 @@ while i <= 10:
 
 
 for j in 'hello world':
-    if j != 'w':
+    if j == 'w':
         continue
-    print(j * 3, end='')
+    print(j * 2, end='')
 
 
 for y in 'hello world':
@@ -20,6 +20,6 @@ for t in 'hello world':
     if t == 'a':
         break
 else:
-    print("Буквы а нет")
+    print("Буквы нет")
 
 

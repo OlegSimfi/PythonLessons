@@ -5,13 +5,13 @@ print(lis)
 a = [a + b for a in 'list' if a != 's' for b in 'soup' if b != 'u']
 print(a)
 
-l.append(1)
+l.append(23)
 l.append(34)
-b = [7,88]
+b = [7, 88]
 print(l)
 l.extend(b)
 print(l)
-l.insert(0, 77)
+l.insert(1, 77)
 print(l)
 l.remove(34)
 print(l)

@@ -7,7 +7,7 @@ print(a)
 a['short'] = 234
 print(a)
 
-b = dict.fromkeys(['a','b'])
+b = dict.fromkeys(['a', 'b'])
 print(b)
 b['a'] = 7
 b['b'] = 88
