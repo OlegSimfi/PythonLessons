@@ -6,6 +6,16 @@ class Person:
         self.name = name
         self.age = age
 
+
+class Student(Person):
+    course = 1
+
+
+igor = Student()
+igor.set("Igor", 19)
+print(igor.name)
+print(igor.course)
+
 vlad = Person()
 vlad.set("Vlad", 54)
 print(vlad.name + " " + str(vlad.age))
